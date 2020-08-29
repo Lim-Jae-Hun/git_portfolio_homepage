@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+	* {padding: 0; margin: 0;}
+	body {background: #f3e5f5;}
+	#wrap {width: 1200px; margin: 0 auto;}
+	header {width: 100%; height: 150px; background: #9575cd;}
+	aside {float: left; width: 30%; height: 700px; background: #7e57c2;}
+	section {float: left; width: 70%; height: 700px; background: #673ab7;}
+	footer {float: left; width: 100%; height: 150px; background: #5e35b1;}
+
+	/* width가 같으면 스크롤바가 생길 수 있으므로 오차를 조금 주는 것임! */
+	/* 화면 너비 0 ~ 1200px */
+	@media (max-width: 1220px) {
+		/* 양쪽에 조금의 여백을 주기 위해 100%아닌 95를 줌 */
+		#wrap {width: 95%;}
+	}
+	
+	/* 화면 너비 0 ~ 768px */
+	@media (max-width: 768px) {
+		#wrap {width: 100%;}
+	}
+	
+	/* 화면 너비 0 ~ 480 */
+	@media (max-width: 480px) {
+		#wrap {width: 100%;}
+		header {height: 300%;}
+		aside {float: none; width: 100%; height: 300px;}
+		section {float: none; width: 100%; height: 300px;}
+	}
+	
+</style>
+
+</head>
+<body>
+
+	<div id="wrap">
+		<header></header>
+		<aside></aside>
+		<section></section>
+		<footer></footer>
+	</div>
+
+
+
+</body>
+</html>
