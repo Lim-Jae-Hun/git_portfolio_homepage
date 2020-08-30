@@ -5,21 +5,24 @@
 	<meta name="author" content="webstoryboy">
 	<meta name="description" content="반응형 사이트 따라하기">
 	<meta name="keywords" content="반응형사이트, 웹퍼블리셔, 웹접근성, HTML5, webstoryboy, webs">
-	<title>반응형 사이트 만들기 : 아웃라이너</title>
+	<title>반응형 사이트 만들기 : 헤더 메뉴</title>
 	
 	<!-- style -->
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style.css">
 	
-	<!-- 파비콘 -->
-	<link rel="shortcut icon" href="icon/favicon.ico">
-	<link rel="apple-touch-icon-precomposed" href="icon/favicon-152.png">
-	<link rel="icon" href="path/to/favicon.png">
-	<link rel="icon" href="icon/favicon-16.png" sizes="16x16"> 
-	<link rel="icon" href="icon/favicon-32.png" sizes="32x32"> 
-	<link rel="icon" href="icon/favicon-48.png" sizes="48x48"> 
-	<link rel="icon" href="icon/favicon-64.png" sizes="64x64"> 
-	<link rel="icon" href="icon/favicon-128.png" sizes="128x128">
+	<!-- 파비콘 --> <!-- 나중에 하고 싶은거 찾아서 따로 설정하기 -->
+	<link rel="shortcut icon" href="../icon/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="../icon/favicon-152.png">
+	<link rel="icon" href="../path/to/favicon.png">
+	<link rel="icon" href="../icon/favicon-16.png" sizes="16x16"> 
+	<link rel="icon" href="../icon/favicon-32.png" sizes="32x32"> 
+	<link rel="icon" href="../icon/favicon-48.png" sizes="48x48"> 
+	<link rel="icon" href="../icon/favicon-64.png" sizes="64x64"> 
+	<link rel="icon" href="../icon/favicon-128.png" sizes="128x128">
+	
+	<!-- 웹 폰트 -->
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 	
 	<!-- HTLM5shiv ie6~8 -->
 	<!--[if lt IE 9]> 
@@ -32,9 +35,20 @@
 </head>
 <body>
 
-	<header>
-		<h1>반응형 사이트</h1>
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="header">
+					<div class="header_menu">
+						<a href="#">Blog</a>
+						<a href="#">Github</a>
+						<a href="#">Webstandard</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
+	<!-- /header -->
 	
 	<nav>
 		<h2>반응형 사이트 전체 메뉴</h2>
@@ -74,8 +88,8 @@
 
 
 	<!-- JavaScript Libraries -->
-	<script src="js/jquery.min_1.12.4.js"></script>
-	<script src="js/modernizr-custom.js"></script>
+	<script src="../js/jquery.min_1.12.4.js"></script>
+	<script src="../js/modernizr-custom.js"></script>
 	
 </body>
 </html>
