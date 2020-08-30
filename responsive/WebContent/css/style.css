@@ -5,7 +5,7 @@
 #nav {background-color: #f6fdff;}
 
 /* 컨테이너 */
-.container {width: 1200px; margin: 0 auto; background: rgb(0,0,0,0.3);}
+.container {width: 1200px; margin: 0 auto; /* background: rgb(0,0,0,0.3); */}
 
 /* 헤더 */
 .header {height: 327px;}
@@ -87,10 +87,10 @@
 
 /* 전체 메뉴 */
 .nav {overflow: hidden; padding: 25px 0;}
-.nav > div {float: left; width: 40px;}
+.nav > div {float: left; width: 40%;}
 .nav > div:last-child {width: 20%;}
 .nav > div ol {overflow: hidden;}
-.nav > div li {float: left; position: relative; padding-left: 8px; box-sizing: border-box;}
+.nav > div li {float: left; width: 50%; position: relative; padding-left: 8px; box-sizing: border-box;}
 .nav > div:last-child li {width: 100%;}
 .nav > div li:before {
 	content: '';
