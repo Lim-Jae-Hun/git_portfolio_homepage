@@ -157,6 +157,22 @@ body {background: url("../img/header_bg.jpg") repeat-x center top;}
 .column.col8 {}
 .column.col9 {border-bottom: 0;}
 
+/* 메뉴 */
+.menu {}
+.menu li {position: relative;}
+.menu li a {
+	font-size: 16px; text-transform: uppercase;
+	color: #878787;
+	border: 1px solid #dbdbdb;
+	padding: 10px; display: block;
+	transition: box-shadow 0.34s ease, background 0.34s ease;
+}
+.menu li a i {position: absolute; right: 10px; top: 15px;}
+.menu li a:hover {
+	box-shadow: 180px 0 0 0 rgba(36,130,174,0.7) inset;
+	color: #fff;
+	background: rgba(36,130,174,0.7);
+}
 
 
 
