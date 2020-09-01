@@ -230,6 +230,24 @@ body {background: url("../img/header_bg.jpg") repeat-x center top;}
         .blog1 .img-retina {display: initial;}
         .blog1 .img-normal {display: none;}
 }
+/* 블로그1은 figure-img를  사용한 방법이고 
+	 블로그2은 background-img를 이용한 방법이다. */
+/* 블로그2 / 용량에 따른 이미지 최적화를 하기 위해서 !!*/
+.blog2 h5 {color: #fff; text-align: center; padding: 30px; text-transform: uppercase;}
+.blog2 p {padding-top: 5px;}
+.blog2 .img-retina {background-image: url(../img/blog4_@1.jpg);	background-size: cover;}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 2dppx) {
+        .blog2 .img-retina {background-image: url(../img/blog4_@2.jpg);}
+}
+/* 모바일 일때 보통 3 */
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+        only screen and (min-device-pixel-ratio: 3),
+        only screen and (min-resolution: 3dppx) {
+        .blog2 .img-retina {background-image: url(../img/blog4_@3.jpg);}
+}
 
 
 
@@ -237,6 +255,11 @@ body {background: url("../img/header_bg.jpg") repeat-x center top;}
 
 
 
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
 /* mediaquery */
 /* 화면 너비 0 ~ 1220px */
 @media (max-width:1220px) {
