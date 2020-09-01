@@ -283,12 +283,14 @@ body {background: url("../img/header_bg.jpg") repeat-x center top;}
 	background: #5dbfeb;
 	border-radius: 50%;
 }
+.slider .slick-dots button {outline-style: none;}
 .slider .slick-dots li.slick-active button {background: #2b91c8;}
 .slider .slick-prev {
 	position: absolute; left: 0; bottom: 0; z-index: 1000;
 	width: 30px; height: 30px;
 	display: inline-block;
-	background: #fff;
+	background: none;
+	outline-color: #2b91c8;
 	/* FontAwesome을 이미지 태그가 아닌ing태그???를 이용해서 불러오는 것!! */
 	text-indent: -9999px; /* 들여쓰기 기준 */
 	/* 웹폰트를 불러오는것처럼 사용한것 css에 적용하기 위해서 */
@@ -305,7 +307,8 @@ body {background: url("../img/header_bg.jpg") repeat-x center top;}
 	position: absolute; right: 0; bottom: 0; z-index: 1000;
 	width: 30px; height: 30px;
 	display: inline-block; 
-	background: #fff;
+	background: none;
+	outline-color: #2b91c8;
 	text-indent: -9999px;
 	font: normal normal normal 14px/1 FontAwesome; 
 }
@@ -315,8 +318,6 @@ body {background: url("../img/header_bg.jpg") repeat-x center top;}
 	text-indent: 0;
 	position: absolute; left: 11px; top: 8px;
 }
-
-
 
 
 
