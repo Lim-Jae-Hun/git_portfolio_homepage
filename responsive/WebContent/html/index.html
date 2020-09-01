@@ -7,7 +7,7 @@
 	<meta name="author" content="webstoryboy">
 	<meta name="description" content="반응형 사이트 따라하기">
 	<meta name="keywords" content="반응형사이트, 웹퍼블리셔, 웹접근성, HTML5, webstoryboy, webs">
-	<title>반응형 사이트 만들기 : 블로그 영역(고해상도 이미지2)</title>
+	<title>반응형 사이트 만들기 : 이미지 슬라이드</title>
 	
 	<!-- style -->
 	<link rel="stylesheet" href="../css/reset.css">
@@ -15,6 +15,8 @@
 	<!-- 폰트어썸 홈페이지에서 4버전을 다운 받아 css폴더와 fonts폴더의 파일을 복사해서 붙여 놓고 link 걸어주고
 			css파일에 url에 fonts 경로 확인하고 인터넷 띄워서 소스보기에서 링크들어가서 연동 확인하기 -->
 	<link rel="stylesheet" href="../css/font-awesome.css">
+	<!-- https://kenwheeler.github.io/slick/    슬라이드 -->
+	<link rel="stylesheet" href="../css/slick.css">
 	
 	<!-- Facebook meta tags -->
 	<meta property="og:type" content="article" />
@@ -249,11 +251,15 @@
 				<section id="cont_center">
 					<h3 class="ir_su">반응형 사이트 가운데 컨텐츠</h3>
 					<article class="column col4">
-						<h4 class="col_tit">Title</h4>
-						<p class="col_desc">이 곳은 설명 부분입니다.</p>
-						<!--  -->
-						
-						<!-- // -->
+						<h4 class="col_tit">Slick Slider</h4>
+						<p class="col_desc">slick.js를 이용한 이미지 슬라이드 효과입니다.</p>
+						<!-- 이미지 슬라이드(slick) -->
+							<div class="slider">
+								<div><img alt="이미지1" src="../img/slider01.jpg"></div>
+								<div><img alt="이미지2" src="../img/slider02.jpg"></div>
+								<div><img alt="이미지3" src="../img/slider03.jpg"></div>
+							</div>
+						<!-- //이미지 슬라이드 -->
 					</article>
 					<!-- //col4 -->
 					<article class="column col5">
@@ -322,8 +328,29 @@
 	<!-- JavaScript Libraries -->
 	<script src="../js/jquery.min_1.12.4.js"></script>
 	<script src="../js/modernizr-custom.js"></script>
-	
+	<script src="../js/slick.js"></script>
 	<script>
+	
+	//이미지 슬라이더
+	$(".slider").slick({
+	  dots: true,
+	  autoplay: true,
+	  autoplaySpeed: 3000,
+	  arrows: false,
+	  responsive: [
+	    {
+	      breakpoint: 768,
+	      settings: {
+	        arrows: true,
+	        dots: false
+	        }
+	    }
+	  ]
+	});
+	
+	
+	
+		/* sns 공유하기 */
 		//http://www.facebook.com/sharer.php?u={페이지 제목}&t={페이지링크}
 		//http://twitter.com/intent/tweet?text={페이지 제목}&url={페이지링크}
 		//https://share.naver.com/web/shareView.nhn?url={페이지링크}&title={페이지 제목}
