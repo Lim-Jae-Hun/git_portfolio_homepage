@@ -7,7 +7,7 @@
 	<meta name="author" content="webstoryboy">
 	<meta name="description" content="반응형 사이트 따라하기">
 	<meta name="keywords" content="반응형사이트, 웹퍼블리셔, 웹접근성, HTML5, webstoryboy, webs">
-	<title>반응형 사이트 만들기 : 푸터</title>
+	<title>반응형 사이트 만들기 : 접기/펼치기 스크립트</title>
 	
 	<!-- style -->
 	<link rel="stylesheet" href="../css/reset.css">
@@ -413,7 +413,33 @@
 	});
 	
 	// 라이트 박스
-	$(".lightbox").lightGallery(); 	
+	$(".lightbox").lightGallery({ /* 기능 넣을 수 있음 */ }); 	
+	
+	// 접기/펼치기
+	$(".btn").click(function(e){
+		e.preventDefault();
+		$(".nav").slideToggle();
+		$(".btn").toggleClass("open"); //class를 생성해 주는것 !
+		
+		if($(".btn").hasClass("open")) {
+			// open이 있을 떄 i태그를 찾아~
+			$(".btn").find("i").attr("class", "fa fa-angle-up");
+		} else {
+			// open이 있을 떄
+			$(".btn").find("i").attr("class", "fa fa-angle-down");
+		}
+	});
+	
+	$(window).resize(function(){
+		var wWidth = $(window).width();
+		if(wWidth > 600) {
+			$(".nav").removeAttr("style");
+		}
+	});
+	
+	
+	
+	
 	
 	
 	
