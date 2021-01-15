@@ -23,7 +23,7 @@
 		<a href="#cont_cont">컨텐츠 메뉴 바로가기</a>
 	</div>
 
-	<div id="wrp">
+	<div id="wrap">
 		<div id="header">
 			<div class="container">
 				<div class="header">
@@ -415,7 +415,7 @@
 					<address class="mt20">
 					Copyright&copy;webstoryboy.co.kr All Right Rederved
 					</address>
-					<div class="w3c mt15">
+					<!-- <div class="w3c mt15">
 				    <a href="https://jigsaw.w3.org/css-validator/check/referer">
 			        <img style="border:0;width:88px;height:31px"
 			        		src="https://jigsaw.w3.org/css-validator/images/vcss" alt="올바른 CSS입니다!" />
@@ -423,12 +423,30 @@
 				    <a href="http://validator.w3.org/check?uri=referer">
             	<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" />
             </a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
 		<!-- //footer -->
 	</div>
+	<!-- //wrap -->
+	
+	<!-- script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		// 버튼을 클릭하면 전체 메뉴를 보이게 함.
+		$(".tit .btn").click(function(e){
+			e.preventDefault();
+			//$("#cont_nav").css("display","block");
+			//$("#cont_nav").show();
+			//$("#cont_nav").fadeIn();
+			//$("#cont_nav").slideDown();
+			//$("#cont_nav").toggle();
+			//$("#cont_nav").fadeToggle();
+			$("#cont_nav").slideToggle(200);
+			$(this).toggleClass("on");
+		});
+	</script>
 	
 </body>
 </html>
