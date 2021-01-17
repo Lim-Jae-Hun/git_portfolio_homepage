@@ -1,5 +1,14 @@
+//윈도우 팝업
+$(".winodw_popup").click(function(e){
+	e.preventDefault();
+	//window.open("파일명", "팝업이름", "옵션성정");
+	//옵션 : left, top, width, height, status, toolbar, location, menubar, scrollbars, fullscreen
+	window.open("window_popup.html", "window_popup", "width=800, height=560, left=50, top=50, scrollbars=0, toolbar=0, menubar=0");
+});
+
+
 //레이어 팝업
-$(".layer").click(function(e){
+$(".layer_popup").click(function(e){
 	e.preventDefault();
 	//$("#layer").css("display","block");
 	//$("#layer").show();
