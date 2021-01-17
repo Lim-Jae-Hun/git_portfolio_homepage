@@ -2,9 +2,8 @@
 $(".lightgallery").lightGallery({
 	thumbnail: true,
 	autoplay: true,
-	pause: 300,
+	pause: 1000,
 	progressBar: true
-	
 });
 
 
