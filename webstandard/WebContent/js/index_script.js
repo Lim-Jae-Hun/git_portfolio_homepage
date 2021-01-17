@@ -1,3 +1,13 @@
+//라이트 박스
+$(".lightgallery").lightGallery({
+	thumbnail: true,
+	autoplay: true,
+	pause: 300,
+	progressBar: true
+	
+});
+
+
 //윈도우 팝업
 $(".winodw_popup").click(function(e){
 	e.preventDefault();
@@ -23,6 +33,7 @@ $("#layer .close").click(function(e){
 	$("#layer").slideUp();
 });
 
+
 // 탭메뉴
 var $tab_list = $(".tab_menu");
 
@@ -36,6 +47,7 @@ function tabMenu(e) {
 			.removeClass("active").find(">ul").hide();
 }
 $tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
+
 
 // 배너
 // html 마크업 셋팅 -> css 연동 -> 제이쿼리 연동 -> 제이쿼리 호출
@@ -76,6 +88,7 @@ $(".prev").click(function() {
 $(".next").click(function() {
 	$(".gallery_img").slick("slickNext");
 });
+
 
 // 버튼을 클릭하면 전체 메뉴를 보이게 함.
 $(".tit .btn").click(function(e) {
