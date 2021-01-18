@@ -149,7 +149,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="html_page" path="/html_page" reloadable="true" source="org.eclipse.jst.jee.server:html_page"/><Context docBase="responsive" path="/responsive" reloadable="true" source="org.eclipse.jst.jee.server:responsive"/><Context docBase="html_page" path="/html_page" reloadable="true" source="org.eclipse.jst.jee.server:html_page"/><Context docBase="responsive" path="/responsive" reloadable="true" source="org.eclipse.jst.jee.server:responsive"/><Context docBase="webstandard" path="/webstandard" reloadable="true" source="org.eclipse.jst.jee.server:webstandard"/></Host>
+      <Context docBase="html_page" path="/html_page" reloadable="true" source="org.eclipse.jst.jee.server:html_page"/>
+      <Context docBase="megabox2019" path="/megabox2019" reloadable="true" source="org.eclipse.jst.jee.server:megabox2019"/>
+      <Context docBase="responsive" path="/responsive" reloadable="true" source="org.eclipse.jst.jee.server:responsive"/>
+      <Context docBase="webstandard" path="/webstandard" reloadable="true" source="org.eclipse.jst.jee.server:webstandard"/>
+      </Host>
     </Engine>
   </Service>
 </Server>
