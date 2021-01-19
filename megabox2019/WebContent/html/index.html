@@ -10,8 +10,8 @@
 	<title>메가박스 2019</title>
 	
 	<!-- CSS -->
-	<link rel="stylesheet" href="../css/reset01.css">
-	<link rel="stylesheet" href="../css/style01.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style.css">
 	
 	<!-- 파비콘 -->
 	<link rel="shortcut icon" href="../icon/favicon.ico">
@@ -32,7 +32,11 @@
   <meta name="twitter:url" content="https://github.com/webstoryboy/megabox2019/">
   <meta name="twitter:image" content="https://webstoryboy.github.io/megabox2019/mega.jpg">
   <meta name="twitter:description" content="메가박스 사이트 따라하면서 배우는 튜토리얼입니다.">
-   
+  
+  <!-- 웹 폰트 -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  
   <!-- HTLM5shiv ie6~8 구 익스에서 시멘트 태그를 인식시켜주기 위해서 설정-->
   <!--[if lt IE 9]> 
     <script src="assets/js/html5shiv.min.js"></script>
@@ -44,7 +48,32 @@
 </head>
 <body>
 	
-
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="header clearfix">
+					<h1>
+						<a href="#">
+							<em><img alt="MEGABOX" src="../img/logo.png"></em>
+							<strong><img alt="LIFE THEATER" src="../img/logo-sub.png"></strong>
+						</a>
+					</h1>
+					<nav class="nav">
+						<ul class="clearfix">
+							<li><a href="#">영화</a></li>
+							<li><a href="#">큐레이션</a></li>
+							<li><a href="#">영화관</a></li>
+							<li><a href="#">특별관</a></li>
+							<li><a href="#">스토어</a></li>
+							<li><a href="#">이벤트</a></li>
+							<li><a href="#">로그인</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- //header -->
 
 	<!-- 자바스크립트 라이브러리 -->
   <script src="../js/jquery.min_1.12.4.js"></script>
