@@ -174,7 +174,7 @@
 	.movie_chart > div > div > div .info h3 {text-align: center; margin: 5px 0 10px;}
 	.movie_chart > div > div > div .info h3 strong {display: block; font-size: 19px; color: #222; font-weight: 300;}
 	.movie_chart > div > div > div .info h3 span {display: none;}
-	.movie_chart > div > div > div .info .info_btn a {width: 52%; margin-left: 24px; display: block; margin-right: 0; padding: 5px; color: #777; margin-bottom: 5px; box-sizing: border-box; font-size: 14px;  background: none; border: 1px solid #ddd;}
+	.movie_chart > div > div > div .info .info_btn a {width: 52%; margin-left: 24%; display: block; margin-right: 0; padding: 5px; color: #777; margin-bottom: 5px; box-sizing: border-box; font-size: 14px;  background: none; border: 1px solid #ddd;}
 	.movie_chart > div > div > div .info .info_btn a:last-child {display: none;}	
 }
 
