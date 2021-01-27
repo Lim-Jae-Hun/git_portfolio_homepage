@@ -22,24 +22,29 @@ var mySwiper = new Swiper('.swiper-container2', {
 		enabled: true,
 		onlyInViewport: false,
 	},
-	autoplay: {
-		delay: 5000,
-	},
+//	autoplay: {
+//		delay: 5000,
+//	},
 	breakpoints: {
-		// when window width is >= 320px
+		0: {
+			slidesPerView: 1.4,
+			spaceBetween: 24
+		},
 		320: {
+			slidesPerView: 1.4,
+			spaceBetween: 24
+		},
+		600: {
+			slidesPerView: 1.4,
+			spaceBetween: 24
+		},
+		768: {
 			slidesPerView: 2,
-			spaceBetween: 20
+			spaceBetween: 24
 		},
-		// when window width is >= 480px
-		480: {
+		960: {
 			slidesPerView: 3,
-			spaceBetween: 30
-		},
-		// when window width is >= 640px
-		640: {
-			slidesPerView: 4,
-			spaceBetween: 40
+			spaceBetween: 24
 		}
 	}
 });
