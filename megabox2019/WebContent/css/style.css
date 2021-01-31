@@ -147,6 +147,10 @@
 	
 	.movie_title ul {width: auto;}
 	.movie_title li {width: 25%; box-sizing: border-box;}
+	
+	.opening {padding: 50px 0;}
+	.opening .open_box {display: none;}
+	.opening .desc {background: none; font-size: 25px;}
 }
 
 @media(max-width: 768px) {
@@ -174,6 +178,8 @@
 	.event h2 {font-size: 24px; font-weight: 700;}
 	.event .event_left {width: 100%;}
 	.event .event_right {display: none;}
+	
+	#opening {margin: 0;}
 }
 
 @media(max-width: 600px) {
@@ -208,6 +214,13 @@
 	#event .row {padding: 0 8px;}
 	.event {padding: 16px;}
 	.event h2 {font-size: 18px; margin-bottom: 8px;}
+	
+	#opening {margin: 8px 0;}
+	.opening {padding: 20px 0;}
+	.opening h2 {margin-bottom: 10px;}
+	.opening h2 .grand {background-size: 300px; background-position:  0 -105px; width: 197px; height: 24px;}
+	.opening .date {display: none;}
+	.opening .desc {font-size: 16px; font-weight: 400; padding-bottom: 0;}
 }
 
 @media(max-width: 480px) {
