@@ -13,7 +13,7 @@
 ### 반응형 웹사이트 960
 <img src="https://user-images.githubusercontent.com/61720243/108012892-d0a1f600-704d-11eb-9f02-9b371843ed9a.png" width="33%">
 ### 반응형 웹사이트 768
-<img src=https://user-images.githubusercontent.com/61720243/108012998-16f75500-704e-11eb-92b3-bfce384c7ffe.png"" width="33%">
+<img src="https://user-images.githubusercontent.com/61720243/108012998-16f75500-704e-11eb-92b3-bfce384c7ffe.png" width="33%">
 ### 반응형 웹사이트 600
 <img src="https://user-images.githubusercontent.com/61720243/108013021-24144400-704e-11eb-938b-40f2bb89ff33.png" width="33%">
 ### 반응형 웹사이트 320
