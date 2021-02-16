@@ -10,5 +10,7 @@
 |<img src="https://user-images.githubusercontent.com/61720243/108012265-4907b780-704c-11eb-9437-62f581a08bf8.png">|<img src="https://user-images.githubusercontent.com/61720243/108012581-11e5d600-704d-11eb-9aab-072dcce5d8af.png">|<img src="https://user-images.githubusercontent.com/61720243/108013075-4d34d480-704e-11eb-8c1b-e78eb2e702f0.png">|
 
 |**반응형 웹사이트 960**|**반응형 웹사이트 768**|**반응형 웹사이트 600**|
-|---|---|---|
+|---|---|-----|
 |<img src="https://user-images.githubusercontent.com/61720243/108012892-d0a1f600-704d-11eb-9f02-9b371843ed9a.png">|<img src="https://user-images.githubusercontent.com/61720243/108012998-16f75500-704e-11eb-92b3-bfce384c7ffe.png">|<img src="https://user-images.githubusercontent.com/61720243/108013021-24144400-704e-11eb-938b-40f2bb89ff33.png">|
+|**반응형 웹사이트 320**|
+|<img src="https://user-images.githubusercontent.com/61720243/108013042-35f5e700-704e-11eb-8525-a2ba13ff2da6.png">|
